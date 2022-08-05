@@ -36,7 +36,7 @@ export class AppConfig {
               resolve();
             })
             .catch((response: any) => {
-              reject(`Could not get application configuration`);
+              resolve();
             });
 
           this._setWindowVersion();
